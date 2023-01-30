@@ -1,0 +1,6 @@
+====  Git
+git add FILE && git commit -m "DESCRIPTION" && git push origin main
+
+==== Common install commands
+With yarn
+yarn create vite . && yarn && npm init @eslint/config && yarn add -D eslint-plugin-import-helpers eslint-plugin-react-hooks prettier eslint-config-prettier

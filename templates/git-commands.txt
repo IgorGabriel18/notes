@@ -1,1 +1,0 @@
-git add FILE && git commit -m "DESCRIPTION" && git push origin main
