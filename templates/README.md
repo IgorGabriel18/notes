@@ -1,37 +1,20 @@
-## NOME
+# NAME
 
-```
-DESCRIÇÃO
-```
+DESCRIPTION
 
-## RECURSOS
+### OBJECTIVE
 
-```
 - ITEM
-```
 
-## OBJETIVO
+### FEATURES
 
-```
 - ITEM
-```
 
-## TECNOLOGIAS
+### TECHNOLOGIES
 
-```
 - ITEM
-```
 
-## DESENVOLVIMENTO
+### Usage
 
-```
-- ITEM
-```
-
-## INSTALAÇÃO E INICIALIZAÇÃO
-
-```
-- Instalação: dentro da raiz do projeto digite "COMANDO" com o terminal
-- Inicialização: dentro da raiz do projeto digite "COMANDO" com o terminal
-
-```
+- Installation: within the project root, type `COMMAND` in the terminal
+- Initialization: within the project root, type `COMMAND` in the terminal
