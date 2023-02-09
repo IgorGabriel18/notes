@@ -7,8 +7,9 @@
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
         "prettier",
-        "plugin:react-hooks/recommended"
+        "plugin:prettier/recommended"
     ],
     "overrides": [],
     "parser": "@typescript-eslint/parser",
@@ -16,23 +17,24 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": ["react", "@typescript-eslint", "eslint-plugin-import-helpers", "react-hooks"],
+    "plugins": ["react", "@typescript-eslint", "react-hooks", "eslint-plugin-import-helpers", "prettier"],
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "double"],
         "semi": ["error", "always"],
-        "react/react-in-jsx-scope": "off",
-        "no-undef": "off",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "import-helpers/order-imports": [
             "warn",
             {
                 "newlinesBetween": "always",
-                "groups": ["module", "parent", "sibling"],
+                "groups": ["module", ["/^~/", "parent"], "sibling"],
                 "alphabetize": { "order": "asc", "ignoreCase": true }
             }
-        ]
+        ],
+        "prettier/prettier": "error",
+        "react/react-in-jsx-scope": "off",
+        "react/no-unescaped-entities": "off"
     }
 }
