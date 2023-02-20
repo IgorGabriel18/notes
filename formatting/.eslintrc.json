@@ -33,7 +33,26 @@
                 "alphabetize": { "order": "asc", "ignoreCase": true }
             }
         ],
-        "prettier/prettier": "error",
+        "prettier/prettier": [
+            "error",
+            {
+                "printWidth": 120,
+                "tabWidth": 4,
+                "useTabs": false,
+                "semi": true,
+                "singleQuote": false,
+                "quoteProps": "as-needed",
+                "jsxSingleQuote": false,
+                "trailingComma": "none",
+                "bracketSpacing": true,
+                "bracketSameLine": false,
+                "arrowParens": "always",
+                "proseWrap": "preserve",
+                "endOfLine": "lf",
+                "embeddedLanguageFormatting": "auto",
+                "singleAttributePerLine": false
+            }
+        ],
         "react/react-in-jsx-scope": "off",
         "react/no-unescaped-entities": "off"
     }
