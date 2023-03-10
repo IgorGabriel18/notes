@@ -1,0 +1,25 @@
+{
+    // Terminal
+    "terminal.integrated.shell.windows": "C:\\Meus_Apps\\Git\\bin\\bash.exe",
+
+    // Appearance
+    "workbench.colorTheme": "Night Wolf (black)",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "500",
+
+    // Formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "afterDelay",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+
+    // Warning
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true
+}

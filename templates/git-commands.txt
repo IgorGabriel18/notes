@@ -1,0 +1,1 @@
+git add FILE && git commit -m "EMOJI AND TYPE: TITLE" -m "- Description 1\n- Description 2\n- Description 3" && git push origin main
